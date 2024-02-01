@@ -1,0 +1,1 @@
+This directory is where you will define your EC2 module. 

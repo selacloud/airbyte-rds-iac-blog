@@ -1,0 +1,53 @@
+{
+    "tenant": {
+        "name": "",
+        "env": "",
+        "airbyte": {
+            "workspace_id": "",
+            "server_url": "",
+            "username": "",
+            "password": ""
+        },
+        "destination": {
+            "db_name": "",
+            "db_username": "",
+            "db_pw": "",
+            "db_host": "",
+            "db_port": 0
+        }
+    },
+    "facebook_marketing": [
+        {
+            "name": "",
+            "access_token": "",
+            "account_id": "",
+            "start_date": "",
+            "end_date": "",
+            "custom_insights": [
+                {
+                    "action_breakdowns": [
+                        ""
+                    ],
+                    "breakdowns": [
+                        ""
+                    ],
+                    "end_date": "",
+                    "fields": [
+                        ""
+                    ],
+                    "insights_lookback_window": 0,
+                    "level": "",
+                    "name": "",
+                    "start_date": "",
+                    "time_increment": 0
+                }
+            ],
+            "action_breakdowns_allow_empty": false,
+            "fetch_thumbnail_images": false,
+            "include_deleted": false,
+            "insights_lookback_window": 0,
+            "max_batch_size": 0,
+            "page_size": 0
+        }
+    ]
+}
